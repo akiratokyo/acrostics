@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DBClues" representedClassName="DBClues" syncable="YES">
+        <attribute name="dbAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbClue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="level" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DBLevel" inverseName="clues" inverseEntity="DBLevel" syncable="YES"/>
+    </entity>
+    <entity name="DBKeyWords" representedClassName="DBKeyWords" syncable="YES">
+        <attribute name="dbId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbKeyWord" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="level" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBLevel" inverseName="keyWords" inverseEntity="DBLevel" syncable="YES"/>
+    </entity>
+    <entity name="DBLevel" representedClassName="DBLevel" syncable="YES">
+        <attribute name="dbAuthor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbAverageTime" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dbCurrentTime" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbDifficulty" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbFinalQuotation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbHints" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbKeyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbLettersArray" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbPercentage" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dbQuotation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbStatus" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="clues" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBClues" inverseName="level" inverseEntity="DBClues" syncable="YES"/>
+        <relationship name="keyWords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBKeyWords" inverseName="level" inverseEntity="DBKeyWords" syncable="YES"/>
+        <relationship name="package" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DBPackage" inverseName="level" inverseEntity="DBPackage" syncable="YES"/>
+        <relationship name="undo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBUndo" inverseName="level" inverseEntity="DBUndo" syncable="YES"/>
+    </entity>
+    <entity name="DBPackage" representedClassName="DBPackage" syncable="YES">
+        <attribute name="dbBanner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbIAPKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbIsEnable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="dbName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="level" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBLevel" inverseName="package" inverseEntity="DBLevel" syncable="YES"/>
+    </entity>
+    <entity name="DBUndo" representedClassName="DBUndo" syncable="YES">
+        <attribute name="dbAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbSelectedIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dbState" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="level" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DBLevel" inverseName="undo" inverseEntity="DBLevel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DBClues" positionX="-2450" positionY="-1977" width="128" height="105"/>
+        <element name="DBKeyWords" positionX="-2457" positionY="-1737" width="128" height="90"/>
+        <element name="DBLevel" positionX="-2673" positionY="-1998" width="128" height="315"/>
+        <element name="DBPackage" positionX="-2916" positionY="-2187" width="128" height="180"/>
+        <element name="DBUndo" positionX="-2934" positionY="-1803" width="128" height="120"/>
+    </elements>
+</model>

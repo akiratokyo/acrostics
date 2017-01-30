@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "file": "vol1.json",
+    "title": "Acrostics: Volume 1",
+    "description": "The original puzzle pack that comes standard with Acrostics by Puzzle Baron.",
+    "icon": "vol1.png",
+    "banner": "vol1-banner.png",
+    "iapkey": ""
+  },
+  {
+    "id": 2,
+    "file": "vol2.json",
+    "title": "Acrostics: Volume 2",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol2.png",
+    "banner": "vol2-banner.png",
+    "iapkey": "acrosticsvol2"
+  },
+  {
+    "id": 3,
+    "file": "vol3.json",
+    "title": "Acrostics: Volume 3",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol3.png",
+    "banner": "vol3-banner.png",
+    "iapkey": "acrosticsvol3"
+  },
+  {
+    "id": 4,
+    "file": "vol4.json",
+    "title": "Acrostics: Volume 4",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol4.png",
+    "banner": "vol4-banner.png",
+    "iapkey": "acrosticsvol4"
+  },
+  {
+    "id": 5,
+    "file": "vol5.json",
+    "title": "Acrostics: Volume 5",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol5.png",
+    "banner": "vol5-banner.png",
+    "iapkey": "acrosticsvol5"
+  },
+  {
+    "id": 6,
+    "file": "vol6.json",
+    "title": "Acrostics: Volume 6",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol6.png",
+    "banner": "vol6-banner.png",
+    "iapkey": "acrosticsvol6"
+  },
+  {
+    "id": 7,
+    "file": "vol7.json",
+    "title": "Acrostics: Volume 7",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol7.png",
+    "banner": "vol7-banner.png",
+    "iapkey": "acrosticsvol7"
+  },
+  {
+    "id": 8,
+    "file": "vol8.json",
+    "title": "Acrostics: Volume 8",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol8.png",
+    "banner": "vol8-banner.png",
+    "iapkey": "acrosticsvol8"
+  },
+  {
+    "id": 9,
+    "file": "vol9.json",
+    "title": "Acrostics: Volume 9",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol9.png",
+    "banner": "vol9-banner.png",
+    "iapkey": "acrosticsvol9"
+  },
+  {
+    "id": 10,
+    "file": "vol10.json",
+    "title": "Acrostics: Volume 10",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol10.png",
+    "banner": "vol10-banner.png",
+    "iapkey": "acrosticsvol10"
+  },
+  {
+    "id": 11,
+    "file": "vol11.json",
+    "title": "Acrostics: Volume 11",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol11.png",
+    "banner": "vol11-banner.png",
+    "iapkey": "acrosticsvol11"
+  },
+  {
+    "id": 12,
+    "file": "vol12.json",
+    "title": "Acrostics: Volume 12",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol12.png",
+    "banner": "vol12-banner.png",
+    "iapkey": "acrosticsvol12"
+  },
+  {
+    "id": 13,
+    "file": "vol13.json",
+    "title": "Acrostics: Volume 13",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol13.png",
+    "banner": "vol13-banner.png",
+    "iapkey": "acrosticsvol13"
+  },
+  {
+    "id": 14,
+    "file": "vol14.json",
+    "title": "Acrostics: Volume 14",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol14.png",
+    "banner": "vol14-banner.png",
+    "iapkey": "acrosticsvol14"
+  },
+  {
+    "id": 15,
+    "file": "vol15.json",
+    "title": "Acrostics: Volume 15",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol15.png",
+    "banner": "vol15-banner.png",
+    "iapkey": "acrosticsvol15"
+  },
+  {
+    "id": 16,
+    "file": "vol16.json",
+    "title": "Acrostics: Volume 16",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol16.png",
+    "banner": "vol16-banner.png",
+    "iapkey": "acrosticsvol16"
+  },
+  {
+    "id": 17,
+    "file": "vol17.json",
+    "title": "Acrostics: Volume 17",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol17.png",
+    "banner": "vol17-banner.png",
+    "iapkey": "acrosticsvol17"
+  },
+  {
+    "id": 18,
+    "file": "vol18.json",
+    "title": "Acrostics: Volume 18",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol18.png",
+    "banner": "vol18-banner.png",
+    "iapkey": "acrosticsvol18"
+  },
+  {
+    "id": 19,
+    "file": "vol19.json",
+    "title": "Acrostics: Volume 19",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol19.png",
+    "banner": "vol19-banner.png",
+    "iapkey": "acrosticsvol19"
+  },
+  {
+    "id": 20,
+    "file": "vol20.json",
+    "title": "Acrostics: Volume 20",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol20.png",
+    "banner": "vol20-banner.png",
+    "iapkey": "acrosticsvol20"
+  },
+  {
+    "id": 21,
+    "file": "vol21.json",
+    "title": "Acrostics: Volume 21",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol21.png",
+    "banner": "vol21-banner.png",
+    "iapkey": "acrosticsvol21"
+  },
+  {
+    "id": 22,
+    "file": "vol22.json",
+    "title": "Acrostics: Volume 22",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol22.png",
+    "banner": "vol22-banner.png",
+    "iapkey": "acrosticsvol22"
+  },
+  {
+    "id": 23,
+    "file": "vol23.json",
+    "title": "Acrostics: Volume 23",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol23.png",
+    "banner": "vol23-banner.png",
+    "iapkey": "acrosticsvol23"
+  },
+  {
+    "id": 24,
+    "file": "vol24.json",
+    "title": "Acrostics: Volume 24",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol24.png",
+    "banner": "vol24-banner.png",
+    "iapkey": "acrosticsvol24"
+  },
+  {
+    "id": 25,
+    "file": "vol25.json",
+    "title": "Acrostics: Volume 25",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol25.png",
+    "banner": "vol25-banner.png",
+    "iapkey": "acrosticsvol25"
+  },
+  {
+    "id": 26,
+    "file": "vol26.json",
+    "title": "Acrostics: Volume 26",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol26.png",
+    "banner": "vol26-banner.png",
+    "iapkey": "acrosticsvol26"
+  },
+  {
+    "id": 27,
+    "file": "vol27.json",
+    "title": "Acrostics: Volume 27",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol27.png",
+    "banner": "vol27-banner.png",
+    "iapkey": "acrosticsvol27"
+  },
+  {
+    "id": 28,
+    "file": "vol28.json",
+    "title": "Acrostics: Volume 28",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol28.png",
+    "banner": "vol28-banner.png",
+    "iapkey": "acrosticsvol28"
+  },
+  {
+    "id": 29,
+    "file": "vol29.json",
+    "title": "Acrostics: Volume 29",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol29.png",
+    "banner": "vol29-banner.png",
+    "iapkey": "acrosticsvol29"
+  },
+  {
+    "id": 30,
+    "file": "vol30.json",
+    "title": "Acrostics: Volume 30",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol30.png",
+    "banner": "vol30-banner.png",
+    "iapkey": "acrosticsvol30"
+  },
+  {
+    "id": 31,
+    "file": "vol31.json",
+    "title": "Acrostics: Volume 31",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol21.png",
+    "banner": "vol21-banner.png",
+    "iapkey": "acrosticsvol31"
+  },
+  {
+    "id": 32,
+    "file": "vol32.json",
+    "title": "Acrostics: Volume 32",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol22.png",
+    "banner": "vol22-banner.png",
+    "iapkey": "acrosticsvol32"
+  },
+  {
+    "id": 33,
+    "file": "vol33.json",
+    "title": "Acrostics: Volume 33",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol23.png",
+    "banner": "vol23-banner.png",
+    "iapkey": "acrosticsvol33"
+  },
+  {
+    "id": 34,
+    "file": "vol34.json",
+    "title": "Acrostics: Volume 34",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol24.png",
+    "banner": "vol24-banner.png",
+    "iapkey": "acrosticsvol34"
+  },
+  {
+    "id": 35,
+    "file": "vol35.json",
+    "title": "Acrostics: Volume 35",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol25.png",
+    "banner": "vol25-banner.png",
+    "iapkey": "acrosticsvol35"
+  },
+  {
+    "id": 36,
+    "file": "vol36.json",
+    "title": "Acrostics: Volume 36",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol26.png",
+    "banner": "vol26-banner.png",
+    "iapkey": "acrosticsvol36"
+  },
+  {
+    "id": 37,
+    "file": "vol37.json",
+    "title": "Acrostics: Volume 37",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol27.png",
+    "banner": "vol27-banner.png",
+    "iapkey": "acrosticsvol37"
+  },
+  {
+    "id": 38,
+    "file": "vol38.json",
+    "title": "Acrostics: Volume 38",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol28.png",
+    "banner": "vol28-banner.png",
+    "iapkey": "acrosticsvol38"
+  },
+  {
+    "id": 39,
+    "file": "vol39.json",
+    "title": "Acrostics: Volume 39",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol29.png",
+    "banner": "vol29-banner.png",
+    "iapkey": "acrosticsvol39"
+  },
+  {
+    "id": 40,
+    "file": "vol40.json",
+    "title": "Acrostics: Volume 40",
+    "description": "Fifty fun acrostics for you to solve.",
+    "icon": "vol30.png",
+    "banner": "vol30-banner.png",
+    "iapkey": "acrosticsvol40"
+  }
+]

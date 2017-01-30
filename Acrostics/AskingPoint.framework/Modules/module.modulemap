@@ -1,0 +1,6 @@
+framework module AskingPoint {
+  umbrella header "AskingPoint.h"
+
+  export *
+  module * { export * }
+}
